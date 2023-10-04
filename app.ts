@@ -5,7 +5,7 @@ export default (data: Object, path?: string) => {
 const keys = Object.keys(data);
 const values = Object.values(data);
 
-const resPath=path||'./'
+const resPath=path||'./data.obj'
 
 const flag = {flag: 'a'}
 fs.writeFileSync(resPath, '{\n', flag)
