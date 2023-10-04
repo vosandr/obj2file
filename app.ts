@@ -1,6 +1,10 @@
 import fs from 'fs';
 
-const data = require ('./data.json');
+const data = {
+  data: 1,
+  main: 2,
+  dada: 3,
+};
 
 const keys = Object.keys(data);
 const values = Object.values(data);
