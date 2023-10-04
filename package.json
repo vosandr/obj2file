@@ -4,8 +4,8 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   },
-  "name": "obj2file",
-  "version": "1.0.0",
+  "name": "obj2file-api",
+  "version": "1.0.1",
   "main": "app.ts",
   "repository": "https://github.com/vosirandr/obj2file.git",
   "author": "Vosirandr <vosirandr@gmail.com>",
