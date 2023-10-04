@@ -10,6 +10,7 @@
   "repository": "https://github.com/vosirandr/obj2file.git",
   "author": "Vosirandr <vosirandr@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "tsnd --quiet ./app"
   }
