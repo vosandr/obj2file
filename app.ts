@@ -1,6 +1,5 @@
-import fs from 'fs';
-
-export default (data: Object, path?: string) => {
+import fs from 'node:fs';
+export default function (data: Object, path?: string) {
 
 const keys = Object.keys(data);
 const values = Object.values(data);

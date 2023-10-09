@@ -1,4 +1,10 @@
 {
-  "target": "esnext",
-  "module": "commonjs"
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "esModuleInterop": true, 
+    "target": "ESNext",
+    "module": "ESNext",
+  },
+
+  
 }
