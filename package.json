@@ -12,6 +12,7 @@
   "author": "Vosirandr <vosirandr@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "types": "./app.d.ts",
   "scripts": {
     "start": "ts-node-esm ./app"
   }
