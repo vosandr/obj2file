@@ -1,5 +1,7 @@
 import fs from 'node:fs';
-export default function (data: Object, path?: string) {
+export default obj2file;
+
+function obj2file(data: Object, path?: string) {
 
 const keys = Object.keys(data);
 const values = Object.values(data);

@@ -1,1 +1,2 @@
-export default function (data: Object, path?: string): void;
+export default obj2file;
+declare function obj2file(data: Object, path?: string): void;

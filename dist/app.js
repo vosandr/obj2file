@@ -1,5 +1,6 @@
 import fs from 'node:fs';
-export default function (data, path) {
+export default obj2file;
+function obj2file(data, path) {
     var keys = Object.keys(data);
     var values = Object.values(data);
     var resPath = path || './data.obj';
